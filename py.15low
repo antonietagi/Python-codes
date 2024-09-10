@@ -1,0 +1,5 @@
+frase = str(input('Qual é o seu nome completo?'))
+print(frase.lower())
+print(frase.upper())
+print(len(frase.strip()))
+print(frase.find(' '))
