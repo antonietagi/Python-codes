@@ -1,0 +1,7 @@
+dist = int(input('Qual é a distância(km) da sua viagem???'))
+if dist <= 200:
+    p1 = 0.50 * dist
+    print(f'O preço da viagem fica {p1}')
+else:
+    p2 = 0.45 * dist
+    print(f'O preço da viagem fica {p2}')
