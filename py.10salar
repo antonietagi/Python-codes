@@ -1,0 +1,4 @@
+n = int(input('Qual é o seu salário?'))
+a = 15 / 100 * n
+af = n + a
+print(f'O aumento é de {a} reais, o que totaliza um salário de {af}')
